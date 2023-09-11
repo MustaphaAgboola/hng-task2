@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const connectDB = require("./connect");
-const { postController, getController, patchController, deleteController } = require('./controller/controller')
+const { postController, getController, patchController, deleteController, putController } = require('./controller/controller')
 
 dotenv.config();
 const app = express();
@@ -12,8 +12,9 @@ app.use(express.json());
 
 app.post("/api", postController );
 
-
 app.get('/api/:id', getController);
+
+app.put("/api/:id", putController);
 
 app.patch('/api/:id', patchController );
 
