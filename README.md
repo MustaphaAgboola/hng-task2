@@ -17,51 +17,51 @@ The API return standard HTTP status codes and JSON error response in this format
 # Endpoints
 
 # 1. Create name
-* Endpoint: /api
-* Method: POST
-* Request Body: The name in JSON Format
-* Example Request: 
+* **Endpoint**: /api
+* **Method**: POST
+* **Request Body**: The name in JSON Format
+* **Example Request**: 
 
 ![POST Example Image](/assets/post.png)
 
-*Example Response: 
+* **Example Response**: 
 
 ![POST RESPONSE EXAMPLE Image](/assets/postResponse.png)
 
 # 2. Find name
-* Endpoint: /api/user_id
-* Method: GET
-* Description: Find a user using the user ID
-* Parameters: User ID must be passed into the endpoint
-* Example Request: 
+* **Endpoint**: /api/user_id
+* **Method**: GET
+* **Description**: Find a user using the user ID
+* **Parameters**: User ID must be passed into the endpoint
+* **Example Request**: 
 
 ![GET Example Image](/assets/get.png)
 
-* Example Response: 
+* **Example Response**: 
 ![Get Example response Image](/assets/getResponse.png)
 
 # 3. Update Name
-* Endpoint: /api/user_id
-* Method: PUT
-* Description: Update user using the user ID
-* Parameters: User ID must be passed into the endpoint
+* **Endpoint**: /api/user_id
+* **Method**: PUT
+* **Description**: Update user using the user ID
+* **Parameters**: User ID must be passed into the endpoint
 
-* Example Request: 
+* **Example Request**: 
 ![PUT Example Image](/assets/put.png)
 
-* Example Response:
+* **Example Response**:
 ![Put Response Image](/assets/putResponse.png)
 
 # 4. Delete Name
-* Endpoint: /api/user_id
-* Method: PUT
-* Description: Delete a User using user ID
-* Parameters: User ID must be passed into the endpiont
+* **Endpoint**: /api/user_id
+* **Method**: PUT
+* **Description**: Delete a User using user ID
+* **Parameters**: User ID must be passed into the endpiont
 
-* Example Request: 
+* **Example Request**: 
 ![Delete Example Image](/assets/delete.png)
 
-*Example Response: 
+* **Example Response**: 
 ![Delete Response Image](/assets/deleteResponse.png)
 
 ## Conlusion
