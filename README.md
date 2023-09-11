@@ -69,6 +69,10 @@ The API return standard HTTP status codes and JSON error response in this format
 
 ![Delete Response Image](/assets/deleteResponse.png)
 
+
+## Instruction
+If you are setting up the API locally or deploying on a server, provide a .env file with the variales of: **PORT** = `your port number` and MONDB_URI = `your mongodb uri`
+
 ## Conlusion
 
 Thank you for using the API. If you have any question or assistance please reach out to mustaphaagboola1@yahoo.com
