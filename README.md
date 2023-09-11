@@ -14,7 +14,7 @@ The API return standard HTTP status codes and JSON error response in this format
 
 ![Example Image](/assets/Screenshot%20from%202023-09-11%2020-00-24.png)
 
-## Endpoints
+# Endpoints
 
 # 1. Create name
 * Endpoint: /api
