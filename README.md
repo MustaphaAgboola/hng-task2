@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-This API allows you manage name by providing endpoints for creating, finding and updating names.
+This API allows you manage name by providing endpoints for creating, finding, updating and delete names.
 
 ## BASE URL
 
