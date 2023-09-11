@@ -38,6 +38,7 @@ The API return standard HTTP status codes and JSON error response in this format
 ![GET Example Image](/assets/get.png)
 
 * **Example Response**: 
+
 ![Get Example response Image](/assets/getResponse.png)
 
 # 3. Update Name
@@ -47,9 +48,11 @@ The API return standard HTTP status codes and JSON error response in this format
 * **Parameters**: User ID must be passed into the endpoint
 
 * **Example Request**: 
+
 ![PUT Example Image](/assets/put.png)
 
 * **Example Response**:
+
 ![Put Response Image](/assets/putResponse.png)
 
 # 4. Delete Name
@@ -59,9 +62,11 @@ The API return standard HTTP status codes and JSON error response in this format
 * **Parameters**: User ID must be passed into the endpiont
 
 * **Example Request**: 
+
 ![Delete Example Image](/assets/delete.png)
 
 * **Example Response**: 
+
 ![Delete Response Image](/assets/deleteResponse.png)
 
 ## Conlusion
