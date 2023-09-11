@@ -13,7 +13,7 @@ app.use(express.json());
 app.post("/api", postController );
 
 
-app.get('/api', getController);
+app.get('/api/:id', getController);
 
 app.patch('/api/:id', patchController );
 

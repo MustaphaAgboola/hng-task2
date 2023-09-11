@@ -2,27 +2,26 @@ const NameModel = require("../models/nameSchema");
 
 const postController = async (request, response) => {
   const { name } = request.body;
-  const Name = await new NameModel({
+  const Name = new NameModel({
     name,
   });
-  Name.save();
+ await Name.save();
 
   response.status(200).send({
     responseCode: 200,
     responseMessage: "Succesfull",
+    data: Name,
   });
 };
 
 const getController = async (request, response) => {
-  const { name } = request.body;
+  const  userId = request.params.id;
   try {
-    let user = await NameModel.findOne({
-      name,
-    });
+    let user = await NameModel.findById(userId);
     if (!user) {
       response.status(404).json({
         responseCode: 404,
-        responseMessage: "name not found",
+        responseMessage: "user not found",
       });
     } else {
       response.send({
@@ -36,7 +35,7 @@ const getController = async (request, response) => {
 
 
 const patchController = async (request, response) => {
-  const userId = request.params._id;
+  const userId = request.params.id;
   const newName = request.body;
 
   try {
@@ -59,7 +58,7 @@ const patchController = async (request, response) => {
 };
 
  const deleteController = async (request, response) => {
-   const userId = request.params._id;
+   const userId = request.params.id;
    const newName = request.body;
 
    try {
