@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-This API allows you manage name by providing endpoints for creating, finding, updating and delete names.
+This API allows you manage name by providing endpoints for creating, reading, updating and delete names.
 
 ## BASE URL
 
@@ -28,7 +28,7 @@ The API return standard HTTP status codes and JSON error response in this format
 
 ![POST RESPONSE EXAMPLE Image](/assets/postResponse.png)
 
-# 2. Find name
+# 2. Read name
 * **Endpoint**: /api/user_id
 * **Method**: GET
 * **Description**: Find a user using the user ID
