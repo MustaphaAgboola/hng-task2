@@ -70,8 +70,13 @@ The API return standard HTTP status codes and JSON error response in this format
 ![Delete Response Image](/assets/deleteResponse.png)
 
 
+**Prerequisite**
+* Make sure you have node runtime running on your server
+* A MongoDB URI
+
 ## Instruction
-If you are setting up the API locally or deploying on a server, provide a .env file with the variales of: **PORT** = `your port number` and MONDB_URI = `your mongodb uri`
+If you are setting up the API locally or deploying on a server, provide a .env file with the variales of: **PORT** = `your port number` and **MONDB_URI** = `your mongodb uri`
+Run `npm start` command to start the server.
 
 ## Conlusion
 

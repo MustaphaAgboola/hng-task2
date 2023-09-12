@@ -9,7 +9,7 @@ const postController = async (request, response) => {
 
   response.status(200).send({
     responseCode: 200,
-    responseMessage: "Succesfull",
+    responseMessage: "Succesfully created",
     data: Name,
   });
 };
@@ -80,7 +80,11 @@ const patchController = async (request, response) => {
         responseMessage: "Not found",
       });
     }
-    response.status(200).json(user);
+     response.status(200).json({
+       responseCode: 200,
+       responseMessage: "Updated Succesfully",
+       data: user,
+     });
   } catch (error) {
     console.log(`Error updating user: ${error}`);
     response.status(500).json({ error: "Error updating user" });
